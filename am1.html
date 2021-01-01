@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image_1</title>
+  <style>
+  body{
+    background-color: whitesmoke;
+  }
+  #box { 
+  border: 0px;
+  padding: 10px; 
+  flex-grow: 1; 
+  display: flex; 
+  flex-direction: row; 
+  width: 1480px;
+  height: 700px;
+} 
+#box1 { 
+  border: 0px;
+  width: 500px;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 200px;
+} 
+#box2 {
+margin-top: 250px;
+margin-left: 100px;
+border:white;
+}
+  </style>
+</head>
+
+<body>
+    <section>
+      <div id = "box">
+    
+        <div id = "box1">
+          <img src="am1.png" alt="Image_1" width="400" height="379">
+        </div>
+    
+        <div id = "box2">
+          <article>January is named after the Roman god Janus, who had two faces so he could see the future and the past at the same time.
+    
+          This print was made by Dutch artist Jacobus Harrewyn in 1698 – he created a series of prints based on the months of the year, all of which are available to explore on our Collection online database at britishmuseum.org/collection
+          
+          Have you made any new year’s resolutions this year?
+          
+          🔎 Jacobus Harrewyn (1660/1–1732/40), ‘Ianus. Ianuarius’. Engraving, 1698.</article>
+        </div>
+    
+      </div>
+      <form action="/action_page.php" method="get">
+        <label for="cmnt">Comment:</label><br />
+          <textarea id="cmnt" name="cmnt" rows="6" cols="50">  
+          </textarea><br /><br />
+          
+          <button type="submit" id="submit" name="submit" onclick="return submt()" >Submit</button><br>
+      </form>
+    </section>
+</body>
+</html>

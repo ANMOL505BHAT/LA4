@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image_3</title>
+  <style>
+  body{
+    background-color: whitesmoke;
+  }
+  #box { 
+  border: 0px;
+  padding: 10px; 
+  flex-grow: 1; 
+  display: flex; 
+  flex-direction: row; 
+  width: 1480px;
+  height: 700px;
+} 
+#box1 { 
+  border: 0px;
+  width: 500px;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 200px;
+} 
+#box2 {
+margin-top: 250px;
+margin-left: 100px;
+border:white;
+}
+  </style>
+</head>
+
+<body>
+    <section>
+      <div id = "box">
+    
+        <div id = "box1">
+          <img src="am3.png" alt="Image_1" width="400" height="379">
+        </div>
+    
+        <div id = "box2">
+          <article>Today marks the 850th anniversary of the murder of #ThomasBecket, Archbishop of Canterbury.
+    
+            The murder was committed in a side chapel of Canterbury Cathedral by a group of knights with close ties to King Henry II, and the atrocity sent shockwaves around medieval Europe.
+            
+            Read about the murder that shook the Middle Ages in our curator’s blog post – link in bio.
+            
+            Read more about our upcoming special exhibition on Becket’s life and legacy, opening April 2021, and sign up for updates to be the first to know when tickets go on sale at britishmuseum.org/becket
+            
+            🔎 Alabaster sculpture showing the murder of Thomas Becket, about 1450, England.</article>
+        </div>
+    
+      </div>
+      <form action="/action_page.php" method="get">
+        <label for="cmnt">Comment:</label><br />
+          <textarea id="cmnt" name="cmnt" rows="6" cols="50">  
+          </textarea><br /><br />
+          
+          <button type="submit" id="submit" name="submit" onclick="return submt()" >Submit</button><br>
+      </form>
+    </section>
+
+</body>
+</html>

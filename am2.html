@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image_2</title>
+  <style>
+  body{
+    background-color: whitesmoke;
+  }
+  #box { 
+  border: 0px;
+  padding: 10px; 
+  flex-grow: 1; 
+  display: flex; 
+  flex-direction: row; 
+  width: 1480px;
+  height: 700px;
+} 
+#box1 { 
+  border: 0px;
+  width: 500px;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 200px;
+} 
+#box2 {
+margin-top: 250px;
+margin-left: 100px;
+border:white;
+}
+  </style>
+</head>
+
+<body>
+    <section>
+      <div id = "box">
+    
+        <div id = "box1">
+          <img src="am2.png" alt="Image_1" width="400" height="379">
+        </div>
+    
+        <div id = "box2">
+          <article>Today we’re travelling back to 500 BC and visiting the ancient city of Persepolis (Parsa) with curator St John Simpson.
+    
+            Step back in time via the link in our bio.
+            
+            Part of the Persian empire, the city was situated in southern Iran. Here you can enjoy ornamental gardens that are so amazing a special word has been invented for them – ‘paradise’.
+            
+            If you can get access, there’s a spectacular citadel that rises above the main city. You can reach it via large staircases, and once inside you’ll discover the splendour of carved reliefs like this one, columned halls and courtyards.
+            
+            Read more in our curator’s historical city travel guide. Link in bio.
+            
+            Where would you like to visit next?
+            
+            🔎 Limestone relief fragment showing a seated male sphinx. Persepolis (modern-day Iran), Achaemenid period, probably 4th century BC.</article>
+        </div>
+    
+      </div>
+      <form action="/action_page.php" method="get">
+        <label for="cmnt">Comment:</label><br />
+          <textarea id="cmnt" name="cmnt" rows="6" cols="50">  
+          </textarea><br /><br />
+          
+          <button type="submit" id="submit" name="submit" onclick="return submt()" >Submit</button><br>
+      </form>
+    </section>
+</body>
+</html>
